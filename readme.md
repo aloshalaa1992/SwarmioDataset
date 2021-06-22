@@ -1,1 +1,3 @@
-Test Test 
+In the main dataset file main-dataset.json, every record contains the network delay measurements from a particular player to each of the 9 servers. It should be noted that the URLs and the IP addresses of the servers are provided in a separate file main-dataset-servers.json
+
+The secondary dataset consists of the JSON file secondary-dataset.json, where the keys are the names of the servers, and the values contain a list of the delays to the 67 players. The players IPs are provided in order in a separate file secondary-dataset-users.json. It is also possible to reuse the code that was used to retrieve the measurements in the file HostsUsersRTT.py  . The IP addresses of the 11 servers can also be accessed in the file secondary-dataset-servers.json where the key of the record will have the name of the server; for example “N Virginia”, and the value will have the IP address of the server
